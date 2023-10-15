@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.leftsection{
+ width: 20%;
+ height: 100%;
+ position: fixed;
+ background-color: #FFFFFF;
+}
+.hello{
+    padding: 20px;
+}
+.hello img{
+    padding: 20px;
+}
+.main{
+    height: 800px;
+    line-height: 40px;
+    box-shadow: 10px 10px 5px rgba(173, 216, 230, 0.315);
+}
+.main ul{
+    list-style-type: none;
+}
+.icon2 li a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.icon2 a{
+    text-decoration: none;
+    color: #7B7B7B;
+}
+.icon2 li.active{
+    background-color: #201639;
+    width: 83%;
+    color: #ddd;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+ .icon2 ul li :hover{
+    background-color: #201639;
+    width: 83%;
+    color: #ddd;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.rightsection{
+    margin-left: 250px;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(173, 216, 230, 0.315);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin{
+    display: flex;
+    gap: 30px;
+}
+.admin img{
+    height: 30px;
+}
+.adminlogo{
+   display: flex;
+   gap: 10px;
+}
+.adminlogo p{
+    margin-top: 5px;
+}
+.adminlogo img{
+    border-radius: 50px;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    height: 50px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+.srch{
+    display: flex;
+    gap: 40px;
+}
+.section{
+    width: 25%;
+    height: 100%;
+    line-height: 50px;
+    padding: 20px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.last .inbox{
+    margin: 10px;
+    border-radius: 5px;
+}
+.inbox {
+    line-height: 40px;
+}
+.dipak{
+    border:  1px solid #DCDCDC99;
+    width: 250px;
+    height: 50px;
+    line-height: 20px;
+    padding: 5px;
+    display: flex;
+}
+.image img{
+    border-radius: 50%;
+}
+
+.chat h3{
+    font-size: 13px;
+    color: #4F4F4F;
+    margin-left: 10px;
+}
+.chat p{
+    font-size: 10px;
+    color: #7B7B7B;
+    margin-left: 10px;
+}
+.time p{
+    font-size: 10px;
+    color: #7B7B7B;
+    
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.section2 {
+    width: 75%;
+    padding: 20px;
+}
+.heading{
+    /* border: 1px solid; */
+    padding: 20px;
+}
+.mainrow {
+  display: flex;
+  gap: 10px;
+
+}
+.mainrow img{
+    border-radius: 50%;
+    width: 25px;  
+}
+.mainrow p{
+    font-size: 13px;
+    margin-top:14px
+}
+
+.btn input{
+    width: 136px;
+    height: 40px;
+    background-color: #249D21;
+    border: none;
+    color: #FFFFFF;
+}
+.footer{
+    margin-top:150px;
+    margin-left: 20px;
+}
+.chatbox{
+    display: flex;
+    gap: 25px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 261px;
+    height: 83px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.Messages{
+   margin-top: 8px;
+   box-shadow: 0px 21px 37px 0px #0000000F;  
+}
+.Messages2 {
+    font-size: 10px;
+}
+.chatbox2{
+    display: flex;
+    gap: 25px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 261px;
+    height: 83px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-left: 60%;
+}

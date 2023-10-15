@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.leftsection{
+ width: 20%;
+ height: 100%;
+ position: fixed;
+ background-color: #FFFFFF;
+}
+.hello{
+    padding: 20px;
+}
+.hello img{
+    padding: 20px;
+}
+.main{
+    height: 800px;
+    line-height: 40px;
+    box-shadow: 10px 10px 5px rgba(173, 216, 230, 0.315);
+}
+.main ul{
+    list-style-type: none;
+}
+.icon2 li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.icon2 li.active{
+    background-color: #201639;
+    color: #ddd;
+    width: 83%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.icon2 ul li :hover{
+    background-color: #201639;
+    width: 83%;
+    color: #ddd;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.rightsection{
+    margin-left: 270px;
+    width: 80%;
+    height: 800px;
+    padding: 20px;
+    background-color: rgba(173, 216, 230, 0.315);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin{
+    display: flex;
+    gap: 30px;
+}
+.admin img{
+    height: 30px;
+}
+.adminlogo{
+   display: flex;
+   gap: 10px;
+}
+.adminlogo p{
+    margin-top: 5px;
+}
+.adminlogo img{
+    border-radius: 50px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 220px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    height: 50px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.back{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.back input{
+    width: 75px;
+    height: 32px;
+    margin: 0px 20px;
+}
+.back h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.section{
+  width: 100%;
+  height: 550px;
+  border: 1px solid #DED9D9;
+}
+.mainfrom{
+    display: flex;
+}
+.form{
+ width: 75%;
+ padding: 20px;
+
+ 
+}
+.row{
+    background-color: #163963;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+.from-fill{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    color: #4F4F4F;
+}
+.from-fill input{
+    width: 343px;
+    height: 46px;
+}
+
+.proflie{
+    width: 25%;
+    height: 100%;
+}
+.admin1 img{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.btn input{
+    width: 110px;
+    height: 46px;
+    background-color: #F23737;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+.section .btn{
+  text-align: center;
+
+}
+
